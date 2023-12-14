@@ -13,5 +13,5 @@ void executeBuiltIn(const char *command);
 bool isBuiltInCommand(const char *command);
 void handleExit(void);
 void executeEnvBuiltIn(void);
-
+void print_hello(void);
 #endif
