@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include "simple_shell.h"
 /**
- * print_hello - Function to print "Hello, Betty!"
+ * main - Function to print "Hello, Betty!"
+ * Return: Always 0 (Success)
  */
-void print_hello(void)
+int main(void)
 {
 	printf("Hello, Betty!\n");
+	return (0);
 }
