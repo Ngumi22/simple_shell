@@ -21,12 +21,10 @@ This is a simple Unix shell implementation in C. The shell supports basic comman
 1. Compile the Shell:
     bash
     gcc -o simple_shell simple_shell.c command_execution.c environment.c command_search.c -Wall
-    
 
 2. Run the Shell:
     bash
     ./simple_shell
-   
 
 3. Enter Commands:
     - Enter commands as you would in a standard shell.
