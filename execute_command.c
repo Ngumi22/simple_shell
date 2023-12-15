@@ -38,6 +38,7 @@ void executeCommand(char *input)
 	{
 		execvp(args[0], args);
 		perror("Exec failed");
+		fprintf(stderr, "Command: %s\n", args[0]);
 		exit(EXIT_FAILURE);
 	}
 	else
